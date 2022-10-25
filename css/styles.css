@@ -1,0 +1,89 @@
+body {
+    margin: 1px solid black;
+    padding: 0px;
+    background: url('https://r4.wallpaperflare.com/wallpaper/212/481/145/bodybuilding-bodybuilder-arnold-schwarzenegger-wallpaper-29d0b84dd18a1d0bf627784f40d1b60d.jpg') ;
+    background-size: 99.99%;
+    color: white;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+.left {
+    position: absolute;
+    /* border: 2px solid red; */
+    display: inline-block;
+    left: 32px;
+    top: 20px;
+}
+.mid {
+    display: block;
+    width: 38%;
+    margin: 36px auto;
+    /* border: 2px solid green; */
+}
+
+.right {
+    position: absolute;
+    /* border: 2px solid blue; */
+    display: inline-block;
+    right: 32px;
+    top: 35px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+.navbar li {
+    list-style: none;
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 18px;
+}
+
+.navbar a:hover , .navbar a:active {
+    color:grey;
+    text-decoration: underline;
+}
+
+.logo {
+    border-radius: 100%;
+    width: 54px;
+}
+
+.left div {
+    text-align: center;
+}
+
+.btn {
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid rgb(101, 101, 101);
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Baloo Thambi 2', cursive;
+}
+
+.btn:hover {
+    background-color: rgb(93, 92, 92);
+}
+
+.container {
+    border: 2px solid white;
+    margin: 129px 67px;
+    padding: 67px;
+    width: 30%;
+    border-radius: 20px;
+}
+
+.form-group input {
+    padding: 5px;
+    margin: 5px 2px;
+    border: 2px solid black;
+    font-family: 'Baloo Thambi 2', cursive; 
+}
+
+
+
