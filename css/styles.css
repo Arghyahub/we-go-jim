@@ -161,8 +161,6 @@ h1 {
     text-align: center;
 }
 
-/* https://wallpaperaccess.com/full/3702296.jpg */
-
 #about {
     display: flex;
     justify-content: center;
@@ -177,7 +175,7 @@ h1 {
     height: 100%;
     width: 100%;
     position: absolute;
-    background: url('https://barbend.com/wp-content/uploads/2022/04/Chris-Bumstead-2.png') no-repeat center center/cover;
+    background: url('https://images.ctfassets.net/8urtyqugdt2l/7agunImsiYfrEuhxJMhRMF/0f69b160b9fb26a7f3728a28abc703f6/Chris-Bumstead-Posing-Bodybuilding.jpg?w=550&h=550&fit=thumb') no-repeat center center/cover;
     z-index: -1;
     opacity: 0.8;
 }
