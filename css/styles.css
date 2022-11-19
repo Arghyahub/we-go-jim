@@ -1,42 +1,249 @@
-/* url('https://r4.wallpaperflare.com/wallpaper/212/481/145/bodybuilding-bodybuilder-arnold-schwarzenegger-wallpaper-29d0b84dd18a1d0bf627784f40d1b60d.jpg') ;
- */
-
+/*  */
+/* Removing unnecessary css  */
 body {
     margin: 0;
     padding: 0;
 }
+html {
+    scroll-behavior: smooth;
+}
 
- .textcenter {
+.textcenter {
     text-align: center;
  }
 
- #navbar {
+/* Navbar */
+#navbar {
+    top: 0;
+    left: 0;
     display: flex;
     position: sticky;
- }
+    align-items: center;
+}
 
 #navbar::before {
+    top: 0;
+    left: 0;
     content: "";
     background-color: black;
     position: absolute;
     height: 100%;
     width: 100%;
     z-index: -1;
+    opacity: 0.5;
 }
  
  #navlogo {
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     border-radius: 100%;
  }
 
 .navbutton {
     color: white;
+    position: absolute;
+    right: 0;
+    margin-right: 28px;
 }
 #navbar ul {
     display: flex;
 }
 
 .navitems {
+    /* li */
     list-style-type: none;
+    padding: 0 10px;
 }
+
+.navitems a {
+    text-decoration: none;
+    padding: 9px 15px;
+    color: black;
+    background-color: white;
+    border-radius: 14px;
+    /* border: 2px solid black; */
+}
+
+.navitems a:hover {
+    color: white;
+    background-color: black;
+}
+
+#hm a {
+    padding: 9px 20px;
+}
+
+/* Home */
+
+#home {
+    display: flex;
+    height: 688px;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#home::before {
+    content: "";
+    position: absolute;
+    height: 95%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: url('https://r4.wallpaperflare.com/wallpaper/212/481/145/bodybuilding-bodybuilder-arnold-schwarzenegger-wallpaper-29d0b84dd18a1d0bf627784f40d1b60d.jpg') no-repeat center center;
+    z-index: -2;
+    opacity: 0.9;
+}
+
+h1 {
+    font-size: 3rem;
+}
+#home p {
+    font-size: 2rem;
+}
+
+#homebutton {
+    margin-top: 30px;
+    width: 25%;
+    padding: 10px;
+    border-radius: 19px;
+    cursor: pointer;
+    border: 3px solid black;
+}
+
+#homebutton:hover {
+    color: white;
+    background-color: grey;
+    border: 3px solid black;
+}
+
+
+#pricing h1 {
+    margin-top: 50px;
+    margin-bottom: 13px;
+}
+
+#pricemodels {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: 2px solid black;
+    width: 350px;
+    height: 500px;
+    margin: 60px 40px;
+    position: relative;
+    border-radius: 10px;
+    background-color: aliceblue;
+    z-index: -1;
+}
+
+.box p {
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+
+.boximg {
+    width: 190px;
+    height: 121px;
+}
+
+
+.box h3 {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+/* https://wallpaperaccess.com/full/3702296.jpg */
+
+#about {
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+    height: 600px;
+    position: relative;
+    color: white;
+}
+
+#about::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: url('http://m.gettywallpapers.com/wp-content/uploads/2022/06/Chris-Bumstead-Background-Photos.webp') no-repeat center center/cover;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#about p {
+    font-size: 1.5rem;
+}
+
+#aboutblock {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+#locn {
+    color: rgb(118, 255, 118);
+    padding: 10px;
+    margin-bottom: 71px;
+    font-weight: bold;
+}
+
+/* Contact Section */
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    font-size: 1.2rem;
+}
+
+.form label,input,textarea {
+    width: 100%;
+}
+
+form button {
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid black;
+    margin: 6px;
+}
+form input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+
+/* copyright */
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    background-color: rgb(0, 166, 255);
+}
+
+
+

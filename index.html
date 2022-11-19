@@ -14,49 +14,71 @@
 
     <!-- Navigation Bar -->
     <nav id="navbar">
-        <img src="https://pbs.twimg.com/profile_images/1371607968219762691/YKiL_mFw_400x400.jpg" alt="LOGO" id="navlogo">
+        <div id="logo">
+            <img src="https://pbs.twimg.com/profile_images/1371607968219762691/YKiL_mFw_400x400.jpg" alt="LOGO" id="navlogo">
+        </div>
         <div class="navbutton">
             <ul>
-                <li class="navitems">Home</li>
-                <li class="navitems">Pricing</li>
-                <li class="navitems">About Us</li>
-                <li class="navitems">Contact Us</li>
+                <li class="navitems" id="hm"><a href="#home">Home</a></li>
+                <li class="navitems" id="hm"><a href="#pricing">Pricing</a></li>
+                <li class="navitems"><a href="#about">About Us</a></li>
+                <li class="navitems"><a href="#contact">Contact Us</a></li>
             </ul>
         </div>
     </nav>
     
     <section id="home">
-        <h1>Physical change is temporary, but Decipline is Permanent</h1>
-        <p>Join us now and be the part of the change</p>
+        <h1 class="textcenter">Physical change is temporary, but Decipline is Permanent</h1>
+        <p class="textcenter">Join us now and be a part of the change</p>
         <button id="homebutton">Join Now</button>
     </section>
 
     <section id="pricing">
-        <div class="box1" id="Normal">
-            <h2>Normal Plan</h2>
-        </div>
-        <div class="box2" id="Weightloss">
-            <h2>Weight Loss Plan</h2>
-        </div>
-        <div class="box3" id="Bodybuilding">
-            <h2>BodyBuilding Plan</h2>
+        <h1 class="textcenter">Pricing</h1>
+        <div id="pricemodels">
+            <div class="box textcenter" id="Normal">
+                <h2>Normal Plan</h2>
+                <img class="boximg" src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/calisthenics-1605096763.jpg?crop=1.00xw:1.00xh;0,0&resize=980:*" alt="Normal Pack">
+                <p>The subscription is suitable for people who are starting out and people seeking for a better health condition. A general coach will be assigned who will give you all necessary training and eating routine</p>
+                <h3>Price: ₹999/mo</h3>
+                <h3></h3>
+            </div>
+            <div class="box textcenter" id="Weightloss">
+                <h2>Weight Loss Plan</h2>
+                <img class="boximg" src="https://images.hindustantimes.com/img/2021/09/30/550x309/abdominal_fat_(1)_1632997411712_1632997414716.jpg" alt="Weight Loss Pack">
+                <p>The subscription is suitable for people who are willing to loose weight or are medically termed obese and want to get rid of such health issues. A personal coach will be assigned to you who will give you all necessary training and eating routine along with cardio and special keto diet routine</p>
+                <h3>Price: ₹1399/mo</h3>
+            </div>
+            <div class="box textcenter" id="Bodybuilding">
+                <h2>BodyBuilding Plan</h2>
+                <img class="boximg" src="https://www.muscleandfitness.com/wp-content/uploads/2015/03/Frank_Zane-content2.jpg?quality=86&strip=all" alt="BodyBuilding Pack">
+                <p>The subscription is suitable for people who are willing to compete in BodyBuilding Competition and want to have a great career in fitness. A Professional coach will be provided who will focus on your muscle hypertrophy and Posing</p>
+                <h3>Price: ₹1399/mo</h3>
+            </div>
         </div>
     </section>
 
-    <section id="about">
+    <section class="textcenter" id="about">
+        <div id="aboutblock">
         <h1>Best Gym in Kolkata</h1>
-        <p>Open 24x7 , offering service for more than 10 years. Produced significant results in Fatloss Journey, Body Building and improving health issues</p>
-        <p id="locn">12A Mirzapur, Kolkata-27, Behind National State Hospital</p>
+            <p>Fitverse was started in 2012 by Balwan Singh. The main motive of Sir Balwan Singh was to bring change to the fitness world and provide quality teachings to the Indian Youth. He wanted to bring awareness about health and good eating habits and have improved life of many people, and The students have won a lot of achievements in the fitness world.
+            </p>
+            <p>
+                Open 24x7 , offering service for more than 10 years. Produced significant results in Fatloss Journey, Body Building and improving health issues. 
+            </p>
+            <p id="locn">📌 12A Mirzapur, Kolkata-27, Behind National State Hospital</p>
+        </div>
     </section>
 
     <section id="contact">
+        <h1 class="textcenter">Contact Us</h1>
         <form action="">
             <div class="form">
                 <label for="Name">Name:</label>
                 <input type="text" class="inputbox" placeholder="Your Name">
             </div>
             <div class="form">
-                <label for="Age">Age:</label>
+                <label for="Age">Age   :</label>
                 <input type="text" class="inputbox" placeholder="Your Age">
             </div>
             <div class="form">
@@ -67,6 +89,7 @@
                 <label for="Any Queries">Queries:</label>
                 <textarea name="textarea" id="inputarea" cols="30" rows="10" placeholder="Leave blank if you don't have any"></textarea>
             </div>
+            <button>Submit</button>
         </form>
     </section>
 
