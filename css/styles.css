@@ -165,7 +165,7 @@ h1 {
     display: flex;
     justify-content: center;
     /* border: 2px solid red; */
-    height: 600px;
+    height: auto;
     position: relative;
     color: white;
 }
