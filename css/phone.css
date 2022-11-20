@@ -1,0 +1,67 @@
+#navlogo {
+    width: 40px;
+    height: 40px;
+}
+
+.navitems {
+    padding: 0 0.7vw;
+}
+
+.navitems a {
+    padding: 5px 0.9vw;
+}
+
+#hm a {
+    padding: 5px 2.5vw;
+}
+
+.navbutton {
+    margin-right: 0.9vw;
+    font-size: 0.9rem;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+#home p {
+    font-size: 1.5rem;
+}
+
+#homebutton {
+    width: 40vw;
+}
+
+.box p {
+    padding: 10px;
+    font-size: 1.1rem;
+}
+
+.box h3 {
+    font-size: 1.1rem;
+}
+
+#Weightloss {
+    height: 520px;
+}
+
+
+#aboutblock {
+    width: 84vw;
+}
+
+#about p {
+    font-size: 1.2rem;
+}
+
+#locn {
+    margin-bottom: 40px;
+}
+
+form {
+    width: 70vw;
+}
+
+footer {
+    font-size: 0.8rem;
+}
