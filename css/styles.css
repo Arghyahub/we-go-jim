@@ -1,11 +1,17 @@
-/*  */
+/* 
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+*/
 /* Removing unnecessary css  */
+html {
+    scroll-behavior: smooth;
+}
+p , a, button {
+    font-family: 'Merriweather', serif;
+}
 body {
     margin: 0;
     padding: 0;
-}
-html {
-    scroll-behavior: smooth;
 }
 
 .textcenter {
@@ -19,6 +25,7 @@ html {
     display: flex;
     position: sticky;
     align-items: center;
+    z-index: 5;
 }
 
 #navbar::before {
@@ -62,6 +69,7 @@ html {
     color: black;
     background-color: white;
     border-radius: 14px;
+    font-size: 0.8rem;
     /* border: 2px solid black; */
 }
 
@@ -70,7 +78,7 @@ html {
     background-color: black;
 }
 
-#hm a {
+.hm a {
     padding: 9px 20px;
 }
 
@@ -80,7 +88,7 @@ html {
     display: flex;
     height: 688px;
     flex-direction: column;
-    color: white;
+    color: #fff;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -93,13 +101,19 @@ html {
     width: 100%;
     top: 0;
     left: 0;
-    background: url('https://r4.wallpaperflare.com/wallpaper/212/481/145/bodybuilding-bodybuilder-arnold-schwarzenegger-wallpaper-29d0b84dd18a1d0bf627784f40d1b60d.jpg') no-repeat center center;
+    background: url('https://r4.wallpaperflare.com/wallpaper/212/481/145/bodybuilding-bodybuilder-arnold-schwarzenegger-wallpaper-29d0b84dd18a1d0bf627784f40d1b60d.jpg') no-repeat ;
+    background-size:cover;
     z-index: -2;
     opacity: 0.9;
 }
 
 h1 {
     font-size: 3rem;
+    font-family: 'Merriweather', serif;
+}
+
+#home h1 {
+    text-shadow: 3px 3px black;
 }
 #home p {
     font-size: 2rem;
@@ -145,7 +159,7 @@ h1 {
 
 .box p {
     padding: 20px;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 
@@ -176,13 +190,17 @@ h1 {
     height: 100%;
     width: 100%;
     position: absolute;
-    background: url('https://images.ctfassets.net/8urtyqugdt2l/7agunImsiYfrEuhxJMhRMF/0f69b160b9fb26a7f3728a28abc703f6/Chris-Bumstead-Posing-Bodybuilding.jpg?w=550&h=550&fit=thumb') no-repeat center center/cover;
-    z-index: -1;
+    background: url('https://images.ctfassets.net/8urtyqugdt2l/7agunImsiYfrEuhxJMhRMF/0f69b160b9fb26a7f3728a28abc703f6/Chris-Bumstead-Posing-Bodybuilding.jpg?w=550&h=550&fit=thumb') no-repeat center;
+    background-size: cover;
+    z-index: -2;
     opacity: 0.8;
 }
 
 #about p {
     font-size: 1.5rem;
+}
+#about h1 {
+    margin-top: 8vw;
 }
 
 #aboutblock {
@@ -202,6 +220,7 @@ h1 {
 /* Contact Section */
 
 #contact {
+    padding-top: 6.7vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
